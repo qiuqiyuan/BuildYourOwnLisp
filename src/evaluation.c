@@ -17,7 +17,6 @@ void add_history(char* unused) {}
 
 #else
 #include <editline/readline.h>
-#include <editline/history.h>
 #endif
 
 /* Use operator string to see which operation to perform */
